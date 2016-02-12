@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="bitcoin,toy project,demo,devcongress">
+    <meta name="author" content="Francis Addai">
+
+    <title>What's the Price of Bitcoin</title>
+
+	<script src="lib/socket.io-1.2.0.js"></script>
+	<link rel="stylesheet" href="lib/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">BTC/USD</h3>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">What's the price of Bitcoin?</h1>
+            <p class="lead">Let's monitor the price of Bitcoin from 2 exchanges, in realtime. Because, we can!</p>
+            <p class="row">
+              <div class="col-md-6" id="okcoin">
+              	<div class="panel panel-default">
+              		<div class="panel-heading">
+              			<h3>OKCoin</h3>
+              			<span>1 BTC equals</span>
+              		</div>
+              		<div class="panel-body">
+              			<span class="bitcoin-price">n/a</span>
+              		</div>
+              	</div>
+              </div>
+              <div class="col-md-6" id="bitstamp">
+              	<div class="panel panel-default">
+              		<div class="panel-heading">
+              			<h3>Bitstamp</h3>
+              			<span>1 BTC equals</span>
+              		</div>
+              		<div class="panel-body">
+              			<span class="bitcoin-price">n/a</span>
+              		</div>
+              	</div>
+              </div>
+            </p>
+          </div>
+
+          <div class="mastfoot m-t">
+            <div class="inner">
+              <p>A little demo of realtime web by <a href="https://faddai.com" target="_blank">faddai</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+<script src="lib/jquery-2.2.0.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
